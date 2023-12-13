@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .parent {
+            background-color: aqua;
+            height: 200px;
+            width: 50%;
+            border: 1px solid;
+        }
+        .childern{
+            height: 50%;
+            width: 50%;
+            border: 1px solid;
+        }
+        .box{
+            border: 1px solid;
+            padding: 12px;
+            padding: 1rem;
+        }
+        .parent-rem{
+            border: 1px solid;
+            padding: 32px;
+        }
+        .banner img{
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="banner" class="banner">
+        <img src="https://picsum.photos/200/300" alt="">
+    </div>
+    <h1>Measurement Unit</h1>
+    <ul>
+        <li>
+            <h2>px</h2>
+        </li>
+        <p style="font-size: 25px;">Lorem ipsum dolor sit amet.</p>
+        <li>
+            <h2>%</h2>
+        </li>
+        <div class="parent">
+            <div class="childern">child=1</div>
+            <div class="childern">child=2</div>
+        </div>
+        <li>
+            <h2>rem</h2>
+            <div class="parentbox-rem">
+            <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam quis aliquam veniam rem molestiae unde aut suscipit maiores in! Deserunt quod officiis unde. Similique quos autem temporibus. Amet, maiores?
+                mostly used in padding and margine 
+            </p>
+        </div>
+        <li>
+            <h2>em</h2>
+        </li>
+        <li>
+            <h2>vh</h2>
+        </li>
+        <li>
+            <h2>vw</h2>
+        </li>
+    </ul>
+</body>
+
+</html>

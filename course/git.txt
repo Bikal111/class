@@ -1,0 +1,10 @@
+// each and every project (one time setup)
+1.git init
+2.git remote add origine https://github.com/Bikal111/class
+    2.1 to check step 2 type git remote -v
+
+//regular codes 
+1.git status (compair online and local code )
+2.git add .
+3.git commit -m "html-css"
+4.git push
